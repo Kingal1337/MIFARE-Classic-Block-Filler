@@ -1,0 +1,15 @@
+App(
+    appid="block_filler",
+    name="Block Filler",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="block_filler_main",
+    stack_size=2 * 1024,
+    fap_category="NFC",
+    fap_icon="icon_images/block_filler_10.png",
+    fap_icon_assets="icon_images",
+    fap_icon_assets_symbol="block_filler",
+    fap_author="Kingal1337",
+    fap_weburl="https://github.com/Kingal1337/MIFARE-Classic-Block-Filler",
+    fap_version=(1, 1),
+    fap_description="Fills in all blocks with generic data",
+)
